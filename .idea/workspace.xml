@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59fb21e7-5f90-4236-a23b-9eb539f26f4d" name="Changes" comment="Microservice starting">
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/restapi/controller/CreditCardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/restapi/pojo/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/restapi/service/CreditCardService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/restapi/HelloApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/restapi/HelloApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/restapi/controller/CreditCardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/restapi/controller/CreditCardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/restapi/service/CreditCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/restapi/service/CreditCardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xample/test/FirstBranchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xample/test/FirstBranchMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +40,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
@@ -60,20 +52,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SpringRestApi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpringSecurityApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;firstbranch&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SpringRestApi.executor": "Run",
+    "Application.SpringSecurityApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="spring.restapi.pojo" />
