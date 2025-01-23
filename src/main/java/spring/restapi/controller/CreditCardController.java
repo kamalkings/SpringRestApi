@@ -1,10 +1,9 @@
 package spring.restapi.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 import spring.restapi.pojo.CreditCard;
 import spring.restapi.service.CreditCardService;
 
@@ -30,7 +29,15 @@ public class CreditCardController {
     }
 
     @DeleteMapping ("/removeCreditCards/{bankName}")
-    public void removeByBank(@PathVariable String bankName){
+    public ResponseEntity removeByBank(@PathVariable String bankName){
          creditCardService.removeby(bankName);
+        return new ResponseEntity<>("Credit card added Deleted!", HttpStatus.OK);
     }
+
+    @PostMapping("/addCreditCards")
+    public ResponseEntity addCreditCards(@RequestBody CreditCard CreditCard){
+        creditCardService.addCreditCard(CreditCard);
+      return new ResponseEntity<>("Credit card added successfully!", HttpStatus.CREATED);
+    }
+
 }

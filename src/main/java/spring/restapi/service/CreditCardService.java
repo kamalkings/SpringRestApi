@@ -35,4 +35,8 @@ public List<CreditCard>getallcards(){
     Predicate<? super CreditCard> predicate = creditcard -> creditcard.getName().equals(bankName);
     creditCardList.removeIf(predicate);
   }
+
+  public void addCreditCard(CreditCard creditCard) {
+    creditCardList.add(creditCard);
+  }
 }
